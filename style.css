@@ -1,0 +1,89 @@
+.navbar-nav {
+    margin: auto;
+  }
+  .social-icons {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .social-icons a {
+    display: inline-block;
+    margin: 0 5px;
+    color: #333;
+  }
+
+  .has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.bgi{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.shadow-text {
+    color: black;
+    -webkit-text-stroke: 1px white;
+    -webkit-text-fill-color: black;
+  }
+
+*{
+   
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar-toggler span{
+    color: #00eeff;
+}
+
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 50;
+    margin-right: 20px;
+    color: black !important;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+    background: #00eeff;
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .logo{
+    height: 30px;
+    z-index: 200;
+    position: relative;
+  }
+  .navMob{
+    margin-top: -45px;
+    z-index: 25;
+    position: relative;
+  }
+}
+
+
+.card {
+  width: 18rem;
+  margin: 10px;
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.heading123{
+  text-align: center;
+}
